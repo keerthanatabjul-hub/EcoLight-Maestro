@@ -1,0 +1,30 @@
+#ifndef _DEFINES_H
+#define _DEFINES_H
+#define SETBIT(WORD,BITPOS) (WORD|=1UL<<BITPOS)
+#define CLRBIT(WORD,BITPOS) (WORD&=~(1UL<<BITPOS))
+#define CPLBIT(WORD, BITPOS)        ((WORD) ^=  (1UL << BITPOS))
+#define SSETBIT(WORD,BITPOS) (WORD=1UL<<BITPOS)
+#define SCLRBIT(WORD,BITPOS) (WORD=1UL<<BITPOS)
+#define READBIT(WORD,BITPOS)  (WORD&(1UL<<BITPOS))
+#define WRITEBYTE(WORD,SBITPOS,BYTE)  (WORD=(WORD&~(0xFFUL<<SBITPOS))|(BYTE<<SBITPOS))
+#define WRITEBIT(WORD,BITPOS,BIT)  (WORD=(WORD&~(1UL<<BITPOS))|(BIT<<BITPOS))
+#define WRITENIBBLE(WORD,SBITPOS,NIBBLE)  (WORD=(WORD&~(0x0FUL<<SBITPOS))|(NIBBLE<<SBITPOS))
+#define READNIBBLE(WORD,SBITPOS)  ((WORD>>SBITPOS)&0x0FUL)
+#define READBYTE(WORD,SBITPOS)  ((WORD>>SBITPOS)&0xFFUL)
+#define READBIT(WORD,BITPOS)  (WORD&(1UL<<BITPOS))
+#define READWRITEBIT(WORD,SBIT,DBIT) (WORD=(WORD&~(1UL<<DBIT))|((WORD>>SBIT)&1UL)<<DBIT)
+#define READWRITEBIT2(DWORD,DBIT,SWORD,SBIT) (DWORD=(DWORD&~(1UL<<DBIT))|((SWORD>>SBIT)&1UL)<<DBIT)
+/*
+#define SETMASK(WORD, MASK)               (WORD |= (0xFF<<MASK))
+
+// For normal registers if you want to clear multiple bits 
+#define CLRMASK(WORD, MASK)               (WORD &= ~(0xFF<<MASK))
+
+// For special SET registers like IOSET0, IOSET1 
+#define SSETMASK(WORD, MASK)              (WORD = (0xFF<<MASK))
+
+// For special CLEAR registers like IOCLR0, IOCLR1 
+#define SCLRMASK(WORD, MASK)              (WORD = (0xFF<<MASK))
+
+*/
+#endif
