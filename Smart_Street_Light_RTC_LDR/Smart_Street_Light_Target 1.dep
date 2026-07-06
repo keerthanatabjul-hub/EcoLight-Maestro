@@ -1,197 +1,0 @@
-Dependencies for Project 'Smart_Street_Light', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\types.h)(0x6A080F4E)()
-F (.\defines.h)(0x6A09BA95)()
-F (.\delay.h)(0x6A08112E)()
-F (.\led.c)(0x6A0B1645)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (led.h)(0x6A09B08B)
-I (defines.h)(0x6A09BA95)
-F (.\pin_connect_block.c)(0x6A07FBD5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\pin_connect_block.o --omf_browse .\pin_connect_block.crf --depend .\pin_connect_block.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-F (.\pin_fun_defines.h)(0x6A09BB11)()
-F (.\main.c)(0x6A32D721)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (timer.h)(0x6A0B4370)
-I (delay.h)(0x6A08112E)
-I (lcd.h)(0x6A08214C)
-I (kpm.h)(0x6A0D6E30)
-I (adc.h)(0x6A09ACA6)
-I (rtc.h)(0x6A0D7955)
-I (led.h)(0x6A09B08B)
-I (eint.h)(0x6A09ABBA)
-I (app.h)(0x6A32D56E)
-I (pwm.h)(0x6A0C69FB)
-I (scheduler.h)(0x6A0C6A20)
-I (config.h)(0x6A1290D7)
-I (motion.h)(0x6A0D8ECF)
-I (alarm.h)(0x6A129EF9)
-I (date_utils.h)(0x6A32C114)
-I (ui_mannager.h)(0x6A129F99)
-I (event_logger.h)(0x6A12A002)
-I (soft_uart.h)(0x6A1BD7DF)
-I (i2c.h)(0x6A1BD735)
-I (config_storage.h)(0x6A1BD819)
-I (uart_monitor.h)(0x6A1C3DFD)
-I (zone_light_spi.h)(0x6A313406)
-F (.\app.c)(0x6A32DBB4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\app.o --omf_browse .\app.crf --depend .\app.d)
-I (types.h)(0x6A080F4E)
-I (timer.h)(0x6A0B4370)
-I (delay.h)(0x6A08112E)
-I (lcd.h)(0x6A08214C)
-I (kpm.h)(0x6A0D6E30)
-I (pwm.h)(0x6A0C69FB)
-I (rtc.h)(0x6A0D7955)
-I (date_utils.h)(0x6A32C114)
-I (streetlight.h)(0x6A0C5E80)
-I (led.h)(0x6A09B08B)
-I (app.h)(0x6A32D56E)
-I (config.h)(0x6A1290D7)
-I (fault.h)(0x6A0C69AD)
-I (motion.h)(0x6A0D8ECF)
-I (zone_light_spi.h)(0x6A313406)
-I (ui_mannager.h)(0x6A129F99)
-I (event_logger.h)(0x6A12A002)
-I (config_storage.h)(0x6A1BD819)
-F (.\lcd.c)(0x6A0B3F10)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
-I (defines.h)(0x6A09BA95)
-I (delay.h)(0x6A08112E)
-I (timer.h)(0x6A0B4370)
-I (lcd_defines.h)(0x6A0803B8)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (lcd.h)(0x6A08214C)
-F (.\kpm.c)(0x6A0D75EB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
-I (types.h)(0x6A080F4E)
-I (timer.h)(0x6A0B4370)
-I (defines.h)(0x6A09BA95)
-I (kpm_defines.h)(0x6A07FC82)
-I (kpm.h)(0x6A0D6E30)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (lcd.h)(0x6A08214C)
-F (.\adc.c)(0x6A0B3F9F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (adc_defines.h)(0x6A0826C7)
-I (pin_fun_defines.h)(0x6A09BB11)
-I (pin_connect_block.h)(0x6A07FBA4)
-I (types.h)(0x6A080F4E)
-I (timer.h)(0x6A0B4370)
-I (delay.h)(0x6A08112E)
-F (.\rtc.c)(0x6A129BC3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (rtc.h)(0x6A0D7955)
-F (.\date_utils.c)(0x6A32CE36)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\date_utils.o --omf_browse .\date_utils.crf --depend .\date_utils.d)
-I (types.h)(0x6A080F4E)
-I (date_utils.h)(0x6A32C114)
-F (.\streetlight.c)(0x6A12952B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\streetlight.o --omf_browse .\streetlight.crf --depend .\streetlight.d)
-I (types.h)(0x6A080F4E)
-I (adc.h)(0x6A09ACA6)
-I (led.h)(0x6A09B08B)
-I (streetlight.h)(0x6A0C5E80)
-I (pwm.h)(0x6A0C69FB)
-I (config.h)(0x6A1290D7)
-I (motion.h)(0x6A0D8ECF)
-I (event_logger.h)(0x6A12A002)
-F (.\eint.c)(0x6A09ABB4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\eint.o --omf_browse .\eint.crf --depend .\eint.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (eint.h)(0x6A09ABBA)
-I (pin_fun_defines.h)(0x6A09BB11)
-F (.\delay.c)(0x6A081E36)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
-F (.\rtc.h)(0x6A0D7955)()
-F (.\timer.c)(0x6A0B4369)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (timer.h)(0x6A0B4370)
-F (.\pwm.c)(0x6A0C69F0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
-I (types.h)(0x6A080F4E)
-I (led.h)(0x6A09B08B)
-I (pwm.h)(0x6A0C69FB)
-F (.\scheduler.c)(0x6A313408)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\scheduler.o --omf_browse .\scheduler.crf --depend .\scheduler.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (scheduler.h)(0x6A0C6A20)
-I (alarm.h)(0x6A129EF9)
-I (zone_light_spi.h)(0x6A313406)
-F (.\config.c)(0x6A12925F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\config.o --omf_browse .\config.crf --depend .\config.d)
-I (types.h)(0x6A080F4E)
-I (config.h)(0x6A1290D7)
-F (.\fault.c)(0x6A0C69B2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\fault.o --omf_browse .\fault.crf --depend .\fault.d)
-I (types.h)(0x6A080F4E)
-I (fault.h)(0x6A0C69AD)
-I (config.h)(0x6A1290D7)
-I (rtc.h)(0x6A0D7955)
-I (date_utils.h)(0x6A32C114)
-F (.\motion.c)(0x6A157BCA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\motion.o --omf_browse .\motion.crf --depend .\motion.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (motion.h)(0x6A0D8ECF)
-F (.\alarm.c)(0x6A129F2E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\alarm.o --omf_browse .\alarm.crf --depend .\alarm.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (alarm.h)(0x6A129EF9)
-I (rtc.h)(0x6A0D7955)
-I (config.h)(0x6A1290D7)
-I (lcd.h)(0x6A08214C)
-F (.\ui_mannager.c)(0x6A129FCF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\ui_mannager.o --omf_browse .\ui_mannager.crf --depend .\ui_mannager.d)
-I (types.h)(0x6A080F4E)
-I (lcd.h)(0x6A08214C)
-I (ui_mannager.h)(0x6A129F99)
-F (.\event_logger.c)(0x6A129FC5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\event_logger.o --omf_browse .\event_logger.crf --depend .\event_logger.d)
-I (types.h)(0x6A080F4E)
-I (event_logger.h)(0x6A12A002)
-I (rtc.h)(0x6A0D7955)
-I (lcd.h)(0x6A08214C)
-I (timer.h)(0x6A0B4370)
-F (.\config.h)(0x6A1290D7)()
-F (.\ui_mannager.h)(0x6A129F99)()
-F (.\eeprom.c)(0x6A1C100C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\eeprom.o --omf_browse .\eeprom.crf --depend .\eeprom.d)
-I (types.h)(0x6A080F4E)
-I (delay.h)(0x6A08112E)
-I (i2c.h)(0x6A1BD735)
-I (eeprom.h)(0x6A1C1001)
-F (.\i2c.c)(0x6A1BE5A8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (delay.h)(0x6A08112E)
-I (i2c.h)(0x6A1BD735)
-F (.\config_storage.c)(0x6A1BD7C0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\config_storage.o --omf_browse .\config_storage.crf --depend .\config_storage.d)
-I (types.h)(0x6A080F4E)
-I (eeprom.h)(0x6A1C1001)
-I (config.h)(0x6A1290D7)
-I (config_storage.h)(0x6A1BD819)
-F (.\soft_uart.c)(0x6A1C43B5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\soft_uart.o --omf_browse .\soft_uart.crf --depend .\soft_uart.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (delay.h)(0x6A08112E)
-I (defines.h)(0x6A09BA95)
-I (soft_uart.h)(0x6A1BD7DF)
-I (pin_connect_block.h)(0x6A07FBA4)
-I (pin_fun_defines.h)(0x6A09BB11)
-F (.\uart_monitor.c)(0x6A1C3E05)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\uart_monitor.o --omf_browse .\uart_monitor.crf --depend .\uart_monitor.d)
-I (types.h)(0x6A080F4E)
-I (soft_uart.h)(0x6A1BD7DF)
-I (rtc.h)(0x6A0D7955)
-I (config.h)(0x6A1290D7)
-I (fault.h)(0x6A0C69AD)
-I (zone_light_spi.h)(0x6A313406)
-I (alarm.h)(0x6A129EF9)
-I (uart_monitor.h)(0x6A1C3DFD)
-F (.\zone_light_spi.c)(0x6A313536)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\zone_light_spi.o --omf_browse .\zone_light_spi.crf --depend .\zone_light_spi.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (zone_light_spi.h)(0x6A313406)
-I (spi_shift.h)(0x6A1BD871)
-I (adc.h)(0x6A09ACA6)
-I (config.h)(0x6A1290D7)
-I (event_logger.h)(0x6A12A002)
-I (brightness.h)(0x6A1C2C3D)
-F (.\spi_shift.c)(0x6A312AA7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\spi_shift.o --omf_browse .\spi_shift.crf --depend .\spi_shift.d)
-I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6A080F4E)
-I (spi_shift.h)(0x6A1BD871)
-F (.\brightness.c)(0x6A1C2C41)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\brightness.o --omf_browse .\brightness.crf --depend .\brightness.d)
-I (types.h)(0x6A080F4E)
-I (config.h)(0x6A1290D7)
-I (brightness.h)(0x6A1C2C3D)
